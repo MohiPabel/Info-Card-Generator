@@ -1,0 +1,72 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+  font-family: Arial;
+}
+.social_icons a{
+    color: white;
+}
+
+.social_icons a:hover{
+    color: #64dd17;
+}
+input{
+    color: #fff !important;
+}
+
+
+
+/* From https://stackoverflow.com/questions/37127123/change-color-of-underline-input-and-label-in-materialize-css-framework/37127156 */
+/* label focus color */
+.input-field input:focus + label {
+    color: #64dd17 !important;
+  }
+  /* label underline focus color */
+  .row .input-field input:focus {
+    border-bottom: 1px solid #64dd17 !important;
+    box-shadow: 0 1px 0 0 #64dd17 !important
+  }
+
+
+
+  
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #64dd17;
+  }
+
+
+  .upload-btn{
+    color: #64dd17;
+    background: transparent;
+    border: 1px solid  #64dd17;
+  }
+
+  .upload-btn:hover{
+    background-color: #64dd17;
+    color: #fff;
+  }
+
+  /*############ Id card #############*/
+
+.id-img{
+  width: 70px !important;
+  height: 70px !important;
+}
+.id-text{
+  font-size: 13px;
+}
+.card-content {
+  display: inline-grid;
+  text-align: left;
+}
+
+.abt-txt {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.copyright {
+  margin-top: 10px;
+}
